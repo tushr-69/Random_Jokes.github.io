@@ -49,3 +49,13 @@ h2{
 #button:hover{
     transform: translate(-50%, -50%) scale(1.47)
 }
+@media (max-width: 840px){
+    #emoji{
+        align-items: center;
+        font-size: 4rem;
+    }
+    #jokeContainer{
+        width: 325px;
+        height: 550px;
+    }
+    }
