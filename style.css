@@ -1,0 +1,51 @@
+body{
+    background: rgb(240, 23, 23);
+}
+#jokeContainer{
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 580px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3),
+    0 0 20px rgba(0, 0, 0, 0.3);
+    font-family:" hind+siliguru", sans-serif;
+
+
+}
+button{
+    width: 200px;
+    height: calc(1.33*35px);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.4);
+    background: rgb(255, 217, 0);
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+h2{
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 57%;
+}
+#emoji{
+    font-size: 8rem;
+    position: absolute;
+    left: 40%;
+    top: 6%;
+}
+#button:hover{
+    transform: translate(-50%, -50%) scale(1.47)
+}
